@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Наш сайт</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<ul>
+		<li><a href="?">Главная</a></li>
+		<li><a href="?p=good">Все товары</a></li>
+		<li><a href="?p=user">Все пользователи</a></li>
+		<li><a href="?p=cart">Корзина <span id="countGoodsInCart">{COUNT}<span></a></li>
+		{adminLink}
+		<li><a href="?p=auth&f=login">Авторизация</a></li>
+	</ul>
+	<p style="color: red">{MSG}</p>
+	{CONTENT}
+</body>
+</html>
